@@ -1,0 +1,1080 @@
+2024.05.05 19:18:58 INFO  Started: Metals version 1.3.0 in folders 'C:\Users\swaro\OneDrive\Documents\GitHub\Scala' for client Visual Studio Code 1.88.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@5ca1224b]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@78886c34]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5ca1224b]
+2024.05.05 19:18:58 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+May 05, 2024 7:18:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 05, 2024 7:18:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+May 05, 2024 7:18:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2024.05.05 19:19:03 INFO  running 'C:\Users\swaro\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.11%252B9\OpenJDK17U-jdk_x64_windows_hotspot_17.0.11_9.zip\jdk-17.0.11+9\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\swaro\AppData\Local\Temp\metals10955306087353070925\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.05 19:19:05 INFO  [info] welcome to sbt 1.9.9 (Eclipse Adoptium Java 17.0.11)
+2024.05.05 19:19:07 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2024.05.05 19:19:07 INFO  [info] loading project definition from C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\project\project
+2024.05.05 19:19:13 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2024.05.05 19:19:13 INFO  [info] loading project definition from C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\project
+2024.05.05 19:19:23 INFO  [success] Generated .bloop\hello-world-build.json
+2024.05.05 19:19:23 INFO  [success] Total time: 10 s, completed 5 May 2024, 19:19:23
+2024.05.05 19:19:24 INFO  [info] loading settings for project root from build.sbt ...
+2024.05.05 19:19:24 INFO  [info] set current project to hello-world (in build file:/C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/)
+2024.05.05 19:19:45 INFO  [success] Generated .bloop\root.json
+2024.05.05 19:19:45 INFO  [success] Generated .bloop\root-test.json
+2024.05.05 19:19:45 INFO  [success] Total time: 21 s, completed 5 May 2024, 19:19:45
+2024.05.05 19:19:45 INFO  time: ran 'sbt bloopInstall' in 41s
+2024.05.05 19:19:45 INFO  Attempting to connect to the build server...
+2024.05.05 19:19:45 INFO  Setting up current java home C:\Users\swaro\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.11%252B9\OpenJDK17U-jdk_x64_windows_hotspot_17.0.11_9.zip\jdk-17.0.11+9 in C:\Users\swaro\.bloop\bloop.json
+2024.05.05 19:20:31 ERROR Starting the bsp launcher for bloop...
+2024.05.05 19:20:31 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 24431'...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR Waiting for the bsp connection to come up...
+2024.05.05 19:20:31 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:
+2024.05.05 19:20:31 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2024.05.05 19:20:31 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.17...
+2024.05.05 19:20:31 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2024.05.05 19:20:31 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:355)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 19:20:53 INFO  no build target found for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.05 19:25:10 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Main.scala
+2024.05.05 19:25:15 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Main.scala
+2024.05.05 21:11:13 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Main.scala
+2024.05.05 21:35:17 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala.sc
+2024.05.05 21:35:18 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala.sc
+2024.05.05 21:35:29 INFO  Running List(C:\Users\swaro\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main)
+2024.05.05 21:35:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.05 21:35:29 INFO  Scala CLI: Downloading https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+2024.05.05 21:35:34 INFO  Scala CLI: Still downloading:
+2024.05.05 21:35:34 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (5.11 %, 9642740 / 188690370)
+2024.05.05 21:35:34 INFO  Scala CLI: 
+2024.05.05 21:35:40 INFO  Scala CLI: Still downloading:
+2024.05.05 21:35:40 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (10.62 %, 20046580 / 188690370)
+2024.05.05 21:35:40 INFO  Scala CLI: 
+2024.05.05 21:35:43 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/Hello.scala
+2024.05.05 21:35:46 INFO  Scala CLI: Still downloading:
+2024.05.05 21:35:46 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (14.34 %, 27058932 / 188690370)
+2024.05.05 21:35:46 INFO  Scala CLI: 
+2024.05.05 21:35:49 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/Hello.scala
+2024.05.05 21:35:52 INFO  Scala CLI: Still downloading:
+2024.05.05 21:35:52 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (18.17 %, 34284276 / 188690370)
+2024.05.05 21:35:52 INFO  Scala CLI: 
+2024.05.05 21:35:52 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/Hello.scala
+2024.05.05 21:35:53 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/Hello.scala
+2024.05.05 21:35:54 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/Hello.scala
+May 05, 2024 9:35:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 165
+2024.05.05 21:35:58 INFO  Scala CLI: Still downloading:
+2024.05.05 21:35:58 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (21.90 %, 41329396 / 188690370)
+2024.05.05 21:35:58 INFO  Scala CLI: 
+2024.05.05 21:36:04 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:04 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (25.77 %, 48620276 / 188690370)
+2024.05.05 21:36:04 INFO  Scala CLI: 
+2024.05.05 21:36:08 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Hello.scala
+2024.05.05 21:36:09 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:09 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (28.92 %, 54567668 / 188690370)
+2024.05.05 21:36:09 INFO  Scala CLI: 
+2024.05.05 21:36:15 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:15 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (32.76 %, 61809396 / 188690370)
+2024.05.05 21:36:15 INFO  Scala CLI: 
+2024.05.05 21:36:16 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Hello.scala
+2024.05.05 21:36:18 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Hello.scala
+May 05, 2024 9:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 292
+2024.05.05 21:36:21 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:21 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (36.51 %, 68887284 / 188690370)
+2024.05.05 21:36:21 INFO  Scala CLI: 
+May 05, 2024 9:36:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 308
+2024.05.05 21:36:27 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Hello.scala
+2024.05.05 21:36:27 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:27 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (40.49 %, 76407540 / 188690370)
+2024.05.05 21:36:27 INFO  Scala CLI: 
+2024.05.05 21:36:29 ERROR Timeout waiting for 'build/initialize' response
+2024.05.05 21:36:29 WARN  Retrying connection to the build server Scala CLI
+2024.05.05 21:36:29 INFO  Running List(C:\Users\swaro\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main)
+2024.05.05 21:36:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.05 21:36:29 INFO  Scala CLI: Downloading https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+2024.05.05 21:36:33 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:34 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:34 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:36:34 INFO  Scala CLI: 
+2024.05.05 21:36:41 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:41 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:36:41 INFO  Scala CLI: 
+2024.05.05 21:36:47 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:47 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:36:47 INFO  Scala CLI: 
+2024.05.05 21:36:53 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:53 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:36:53 INFO  Scala CLI: 
+2024.05.05 21:36:59 INFO  Scala CLI: Still downloading:
+2024.05.05 21:36:59 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:36:59 INFO  Scala CLI: 
+2024.05.05 21:37:05 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:05 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:05 INFO  Scala CLI: 
+2024.05.05 21:37:11 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:11 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:11 INFO  Scala CLI: 
+2024.05.05 21:37:17 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:17 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:17 INFO  Scala CLI: 
+2024.05.05 21:37:22 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:22 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:22 INFO  Scala CLI: 
+2024.05.05 21:37:28 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:28 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:28 INFO  Scala CLI: 
+2024.05.05 21:37:29 ERROR Timeout waiting for 'build/initialize' response
+2024.05.05 21:37:29 WARN  Retrying connection to the build server Scala CLI
+2024.05.05 21:37:29 INFO  Running List(C:\Users\swaro\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main)
+2024.05.05 21:37:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.05 21:37:29 INFO  Scala CLI: Downloading https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+2024.05.05 21:37:33 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:34 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:34 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:34 INFO  Scala CLI: 
+2024.05.05 21:37:40 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:40 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:40 INFO  Scala CLI: 
+2024.05.05 21:37:46 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:46 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:46 INFO  Scala CLI: 
+2024.05.05 21:37:51 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:51 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:51 INFO  Scala CLI: 
+2024.05.05 21:37:57 INFO  Scala CLI: Still downloading:
+2024.05.05 21:37:57 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:37:57 INFO  Scala CLI: 
+2024.05.05 21:38:02 INFO  Scala CLI: Still downloading:
+2024.05.05 21:38:02 INFO  Scala CLI: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip (0.00 %, 0 / 188690370)
+2024.05.05 21:38:02 INFO  Scala CLI: 
+2024.05.05 21:38:03 INFO  Scala CLI: (watching) Downloaded https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+2024.05.05 21:38:07 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.pom
+2024.05.05 21:38:07 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.pom
+2024.05.05 21:38:07 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-1/bloop-backend_2.12-1.5.17-sc-1.pom
+2024.05.05 21:38:07 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom
+2024.05.05 21:38:07 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.05.05 21:38:07 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.pom
+2024.05.05 21:38:07 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.pom
+2024.05.05 21:38:08 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-1/bloop-backend_2.12-1.5.17-sc-1.pom
+2024.05.05 21:38:08 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.pom
+2024.05.05 21:38:08 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.pom
+2024.05.05 21:38:08 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom
+2024.05.05 21:38:09 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.05.05 21:38:09 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom
+2024.05.05 21:38:09 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom
+2024.05.05 21:38:09 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+27/com-microsoft-java-debug-core-0.34.0+27.pom
+2024.05.05 21:38:09 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.05.05 21:38:09 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.pom
+2024.05.05 21:38:09 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom
+2024.05.05 21:38:09 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-1/bloop-shared_2.12-1.5.17-sc-1.pom
+2024.05.05 21:38:09 INFO  Scala CLI: Error: java.nio.file.AccessDeniedException: C:\Users\swaro\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_2.12\0.9.0\.pprint_2.12-0.9.0.pom__sha1.computed17168169368135446974.tmp -> C:\Users\swaro\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_2.12\0.9.0\.pprint_2.12-0.9.0.pom__sha1.computed
+2024.05.05 21:38:09 INFO  Scala CLI: For more details, please see 'C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\.scala-build\stacktraces\1714925290-15120085651216294737.log'
+2024.05.05 21:38:29 ERROR Timeout waiting for 'build/initialize' response
+2024.05.05 21:38:29 WARN  Retrying connection to the build server Scala CLI
+2024.05.05 21:38:29 INFO  Running List(C:\Users\swaro\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main)
+2024.05.05 21:38:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.05 21:38:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar
+2024.05.05 21:38:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.jar
+2024.05.05 21:38:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5.jar
+2024.05.05 21:38:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.05.05 21:38:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5.jar
+2024.05.05 21:38:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.1/io_2.12-1.9.1.jar
+2024.05.05 21:38:32 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.05.05 21:38:32 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.9.5/zinc-persist_2.12-1.9.5.jar
+2024.05.05 21:38:36 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5.jar
+2024.05.05 21:38:36 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5.jar
+2024.05.05 21:38:41 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.9.5/zinc-persist_2.12-1.9.5.jar
+2024.05.05 21:38:41 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.9.5/zinc_2.12-1.9.5.jar
+2024.05.05 21:38:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.9.5/zinc_2.12-1.9.5.jar
+2024.05.05 21:38:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.05.05 21:38:51 INFO  Scala CLI: Still downloading:
+2024.05.05 21:38:51 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.1/io_2.12-1.9.1.jar (69.72 %, 434932 / 623794)
+2024.05.05 21:38:51 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5.jar (62.77 %, 158040 / 251770)
+2024.05.05 21:38:51 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5.jar (54.08 %, 262144 / 484758)
+2024.05.05 21:38:51 INFO  Scala CLI: https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar (0.00 %, 0 / 1511952)
+2024.05.05 21:38:51 INFO  Scala CLI: https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.jar (0.00 %, 0 / 976123)
+2024.05.05 21:38:51 INFO  Scala CLI: https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar (0.00 %, 0 / 597229)
+2024.05.05 21:38:51 INFO  Scala CLI: 
+2024.05.05 21:38:56 INFO  Scala CLI: Still downloading:
+2024.05.05 21:38:56 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5.jar (88.80 %, 223576 / 251770)
+2024.05.05 21:38:56 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.1/io_2.12-1.9.1.jar (80.23 %, 500468 / 623794)
+2024.05.05 21:38:56 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5.jar (77.74 %, 376832 / 484758)
+2024.05.05 21:38:56 INFO  Scala CLI: https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar (0.00 %, 0 / 1511952)
+2024.05.05 21:38:56 INFO  Scala CLI: https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.jar (0.00 %, 0 / 976123)
+2024.05.05 21:38:56 INFO  Scala CLI: https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar (0.00 %, 0 / 597229)
+2024.05.05 21:38:56 INFO  Scala CLI: 
+2024.05.05 21:38:57 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5.jar
+2024.05.05 21:38:57 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-1/bloop-backend_2.12-1.5.17-sc-1.jar
+2024.05.05 21:38:57 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-1/bloop-backend_2.12-1.5.17-sc-1.jar
+2024.05.05 21:38:57 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.4/util-relation_2.12-1.9.4.jar
+2024.05.05 21:38:58 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.4/util-relation_2.12-1.9.4.jar
+2024.05.05 21:38:58 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.9.5/zinc-apiinfo_2.12-1.9.5.jar
+2024.05.05 21:38:58 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.9.5/zinc-apiinfo_2.12-1.9.5.jar
+2024.05.05 21:38:58 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.jar
+2024.05.05 21:38:58 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.jar
+2024.05.05 21:38:58 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-1/bloop-shared_2.12-1.5.17-sc-1.jar
+2024.05.05 21:39:02 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.1/io_2.12-1.9.1.jar
+2024.05.05 21:39:02 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.05.05 21:39:02 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5.jar
+2024.05.05 21:39:02 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.05.05 21:39:02 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-1/bloop-shared_2.12-1.5.17-sc-1.jar
+2024.05.05 21:39:02 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.05.05 21:39:07 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.jar
+2024.05.05 21:39:07 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.05.05 21:39:11 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.05.05 21:39:11 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+27/com-microsoft-java-debug-core-0.34.0+27.jar
+2024.05.05 21:39:14 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.05.05 21:39:14 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.05.05 21:39:15 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.05.05 21:39:15 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar
+2024.05.05 21:39:21 INFO  Scala CLI: Still downloading:
+2024.05.05 21:39:21 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (2.40 %, 245359 / 10225728)
+2024.05.05 21:39:21 INFO  Scala CLI: https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar (0.00 %, 0 / 1511952)
+2024.05.05 21:39:21 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:39:21 INFO  Scala CLI: https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+27/com-microsoft-java-debug-core-0.34.0+27.jar (0.00 %, 0 / 306116)
+2024.05.05 21:39:21 INFO  Scala CLI: https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar (0.00 %, 0 / 225379)
+2024.05.05 21:39:21 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:39:21 INFO  Scala CLI: 
+2024.05.05 21:39:21 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.05.05 21:39:21 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.4/collections_2.12-1.9.4.jar
+2024.05.05 21:39:23 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+27/com-microsoft-java-debug-core-0.34.0+27.jar
+2024.05.05 21:39:23 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.05.05 21:39:23 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.05.05 21:39:23 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.9.5/zinc-classpath_2.12-1.9.5.jar
+2024.05.05 21:39:27 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.9.5/zinc-classpath_2.12-1.9.5.jar
+2024.05.05 21:39:27 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.05.05 21:39:29 ERROR Timeout waiting for 'build/initialize' response
+2024.05.05 21:39:29 WARN  Retrying connection to the build server Scala CLI
+2024.05.05 21:39:29 INFO  Running List(C:\Users\swaro\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main)
+2024.05.05 21:39:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.05 21:39:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar
+2024.05.05 21:39:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.05.05 21:39:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar
+2024.05.05 21:39:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.05.05 21:39:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.4/collections_2.12-1.9.4.jar
+2024.05.05 21:39:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.05.05 21:39:33 INFO  Scala CLI: Still downloading:
+2024.05.05 21:39:36 INFO  Scala CLI: Still downloading:
+2024.05.05 21:39:36 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:39:36 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:39:36 INFO  Scala CLI: https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar (0.00 %, 0 / 1511952)
+2024.05.05 21:39:36 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:39:36 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.4/collections_2.12-1.9.4.jar (0.00 %, 0 / 361838)
+2024.05.05 21:39:36 INFO  Scala CLI: https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar (0.00 %, 0 / 283517)
+2024.05.05 21:39:36 INFO  Scala CLI: 
+2024.05.05 21:39:38 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.05.05 21:39:44 INFO  Scala CLI: Still downloading:
+2024.05.05 21:39:44 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:39:44 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:39:44 INFO  Scala CLI: https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar (0.00 %, 0 / 1511952)
+2024.05.05 21:39:44 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:39:44 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.4/collections_2.12-1.9.4.jar (0.00 %, 0 / 361838)
+2024.05.05 21:39:44 INFO  Scala CLI: 
+2024.05.05 21:39:49 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.4/collections_2.12-1.9.4.jar
+2024.05.05 21:39:52 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar
+2024.05.05 21:39:58 INFO  Scala CLI: Still downloading:
+2024.05.05 21:39:58 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:39:58 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:39:58 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:39:58 INFO  Scala CLI: 
+2024.05.05 21:40:04 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:04 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:04 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:04 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:04 INFO  Scala CLI: 
+2024.05.05 21:40:09 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:09 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:09 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:09 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:09 INFO  Scala CLI: 
+2024.05.05 21:40:15 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:15 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:15 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:15 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:15 INFO  Scala CLI: 
+2024.05.05 21:40:20 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:20 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:20 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:20 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:20 INFO  Scala CLI: 
+2024.05.05 21:40:25 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:25 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:25 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:25 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:25 INFO  Scala CLI: 
+2024.05.05 21:40:29 ERROR Timeout waiting for 'build/initialize' response
+2024.05.05 21:40:29 WARN  Retrying connection to the build server Scala CLI
+2024.05.05 21:40:29 INFO  Running List(C:\Users\swaro\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main)
+2024.05.05 21:40:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.05 21:40:30 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar
+2024.05.05 21:40:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.05.05 21:40:30 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.05.05 21:40:36 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:36 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:36 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:36 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:36 INFO  Scala CLI: 
+2024.05.05 21:40:41 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:41 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:41 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:41 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:41 INFO  Scala CLI: 
+2024.05.05 21:40:47 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:47 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:47 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:47 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:47 INFO  Scala CLI: 
+2024.05.05 21:40:52 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:52 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:52 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:52 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:52 INFO  Scala CLI: 
+2024.05.05 21:40:58 INFO  Scala CLI: Still downloading:
+2024.05.05 21:40:58 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:40:58 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:40:58 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:40:58 INFO  Scala CLI: 
+2024.05.05 21:41:03 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/Hello.scala
+2024.05.05 21:41:04 INFO  Scala CLI: Still downloading:
+2024.05.05 21:41:04 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:41:04 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:41:04 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:41:04 INFO  Scala CLI: 
+2024.05.05 21:41:10 INFO  Scala CLI: Still downloading:
+2024.05.05 21:41:10 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:41:10 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:41:10 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:41:10 INFO  Scala CLI: 
+2024.05.05 21:41:16 INFO  Scala CLI: Still downloading:
+2024.05.05 21:41:16 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:41:16 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:41:16 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar (0.00 %, 0 / 2660767)
+2024.05.05 21:41:16 INFO  Scala CLI: 
+2024.05.05 21:41:17 INFO  Scala CLI: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar
+2024.05.05 21:41:23 INFO  Scala CLI: Still downloading:
+2024.05.05 21:41:23 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:41:23 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:41:23 INFO  Scala CLI: 
+2024.05.05 21:41:28 INFO  Scala CLI: Still downloading:
+2024.05.05 21:41:28 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (0.00 %, 0 / 10993868)
+2024.05.05 21:41:28 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (0.00 %, 0 / 10225728)
+2024.05.05 21:41:28 INFO  Scala CLI: 
+2024.05.05 21:41:29 ERROR Timeout waiting for 'build/initialize' response
+2024.05.05 21:41:29 ERROR Error starting Scala CLI
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:692)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:575)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 21:41:33 INFO  Scala CLI: Still downloading:
+2024.05.05 21:41:41 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Hello.scala
+2024.05.05 21:41:46 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Hello.scala
+2024.05.05 21:41:52 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Hello.scala
+2024.05.05 21:41:59 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Hello.scala
+2024.05.05 21:52:08 INFO  compiling main_f4dd477a3a (2 scala sources)
+2024.05.05 22:02:34 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/string_interpolation.scala
+2024.05.05 22:02:34 WARN  No build server connected
+2024.05.05 22:02:34 INFO  compiling main_f4dd477a3a (1 scala source)
+2024.05.05 22:03:08 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\string_interpolation.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed character literal
+    val h = ''
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:03:09 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\string_interpolation.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed character literal
+    val h = ' H'
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:03:09 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\string_interpolation.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed character literal
+    val h = ' HHH'
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:03:11 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\string_interpolation.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed character literal
+    val h = ''
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:03:23 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\string_interpolation.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed string interpolation
+    print(s"$")
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:03:24 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\string_interpolation.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed string interpolation
+    print(s"$d $")
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:03:27 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\string_interpolation.scala
+2024.05.05 22:11:39 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/For.scala
+2024.05.05 22:11:39 WARN  No build server connected
+2024.05.05 22:11:39 INFO  compiling main_f4dd477a3a (2 scala sources)
+2024.05.05 22:11:54 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:2: error: Invalid literal number, followed by identifier character
+    ints = List(1m2)
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:12:16 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:12:23 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:12:43 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:12:53 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:13:19 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:2: error: Invalid literal number, followed by identifier character
+    val ints = List(1m2)
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:13:42 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:13:52 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:14:23 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:14:59 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:19:42 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed character literal
+    j <- 'a' to ''
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:19:57 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed character literal
+    tf j == ''
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:20:07 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed string interpolation
+    println(s"i)
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:20:08 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed string interpolation
+    println(s""i")
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:20:14 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed string interpolation
+    println(s"$")
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:20:18 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:28:59 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:29:13 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:29:17 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:29:38 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:30:47 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:30:48 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/For.scala
+2024.05.05 22:31:41 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:31:59 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:32:10 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:32:31 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:32:38 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:32:55 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:33:02 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:33:06 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:34:04 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:43:42 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:44:04 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/For.scala
+2024.05.05 22:44:06 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/For.scala
+2024.05.05 22:44:09 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:44:14 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:44:32 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:44:38 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:44:39 WARN  No build server connected
+2024.05.05 22:44:39 INFO  compiling main_f4dd477a3a (2 scala sources)
+2024.05.05 22:46:05 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+May 05, 2024 10:46:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\swaro\OneDrive\Documents\GitHub\Scala\.metals\.reports\metals-full\2024-05-05\r_compiler-error_22-46-16-461.md
+2024.05.05 22:46:16 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: malformed xml literal, expected:
+Expected (Name | "/>" | ">"):4:1, found ""
+
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getXml(LegacyScanner.scala:908)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchLT$1(LegacyScanner.scala:298)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:306)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:46:16 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: malformed xml literal, expected:
+Expected (Name | "/>" | ">"):4:1, found ""
+
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getXml(LegacyScanner.scala:908)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchLT$1(LegacyScanner.scala:298)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:306)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:46:28 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:46:39 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:46:45 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:47:41 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:47:52 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+May 05, 2024 10:47:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 124, end 134, length 101
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 124, end 134, length 101
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 124, end 134, length 101
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.05.05 22:48:28 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:48:35 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:48:48 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:51:26 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:2: error: unclosed string literal
+    val fruits = List("apple", "tomat
+                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:51:27 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+scala.meta.tokenizers.TokenizeException: <input>:2: error: unclosed string literal
+    val fruits = List("
+                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.05 22:51:52 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:52:01 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 22:52:33 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\For.scala
+2024.05.05 23:08:03 WARN  No build server connected
+2024.05.05 23:08:04 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/caseclass.scala
+2024.05.05 23:08:03 INFO  compiling main_f4dd477a3a (2 scala sources)
+2024.05.05 23:08:05 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/caseclass.scala
+2024.05.05 23:08:06 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/caseclass.scala
+2024.05.05 23:08:10 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/caseclass.scala
+2024.05.05 23:08:10 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/caseclass.scala
+2024.05.05 23:08:11 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/caseclass.scala
+2024.05.05 23:08:54 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:09:00 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:09:03 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:09:28 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:09:30 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:09:34 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:09:40 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:10:07 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:11:16 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+May 05, 2024 11:11:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4524
+May 05, 2024 11:11:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4552
+2024.05.05 23:11:25 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+May 05, 2024 11:11:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4564
+2024.05.05 23:11:28 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:11:43 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:12:05 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:12:41 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:12:44 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:26:07 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:26:12 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:27:06 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:28:01 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:28:37 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:29:25 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:29:31 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:29:59 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:30:10 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:30:13 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\caseclass.scala
+2024.05.05 23:30:40 WARN  No build server connected
+2024.05.05 23:30:40 INFO  compiling main_f4dd477a3a (2 scala sources)
+2024.05.05 23:30:40 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/hof.scala
+2024.05.05 23:30:40 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+2024.05.05 23:30:40 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/hof.scala
+2024.05.05 23:32:05 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+2024.05.05 23:32:09 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+2024.05.05 23:32:24 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+May 05, 2024 11:32:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5539
+2024.05.06 00:08:11 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/leapyear.scala
+2024.05.06 00:08:11 WARN  No build server connected
+2024.05.06 00:08:11 INFO  compiling main_f4dd477a3a (2 scala sources)
+2024.05.06 00:08:12 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\leapyear.scala
+2024.05.06 00:08:34 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/leapyear.scala
+2024.05.06 00:10:45 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\leapyear.scala
+2024.05.06 00:10:55 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\leapyear.scala
+2024.05.06 00:29:53 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/ageonplanets.scala
+2024.05.06 00:29:53 WARN  No build server connected
+2024.05.06 00:29:53 INFO  compiling main_f4dd477a3a (2 scala sources)
+2024.05.06 00:29:55 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\ageonplanets.scala
+2024.05.06 00:32:25 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/ageonplanets.scala
+2024.05.06 00:32:27 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/ageonplanets.scala
+May 06, 2024 12:32:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6222
+2024.05.06 00:32:59 INFO  time: code lens generation in 3.77s
+2024.05.06 00:33:25 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\ageonplanets.scala
+2024.05.06 00:37:04 INFO  Shutting down server
+2024.05.06 00:37:04 INFO  shutting down Metals

@@ -1078,3 +1078,542 @@ WARNING: Unmatched cancel notification for request id 6222
 2024.05.06 00:33:25 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\ageonplanets.scala
 2024.05.06 00:37:04 INFO  Shutting down server
 2024.05.06 00:37:04 INFO  shutting down Metals
+2024.05.06 00:38:12 INFO  Started: Metals version 1.3.0 in folders 'C:\Users\swaro\OneDrive\Documents\GitHub\Scala' for client Visual Studio Code 1.89.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@3439a88f]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1c96ba23]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3439a88f]
+2024.05.06 00:38:12 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.06 00:38:18 INFO  running 'C:\Users\swaro\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.11%252B9\OpenJDK17U-jdk_x64_windows_hotspot_17.0.11_9.zip\jdk-17.0.11+9\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\swaro\AppData\Local\Temp\metals8944417808384418248\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.06 00:38:20 INFO  [info] welcome to sbt 1.9.9 (Eclipse Adoptium Java 17.0.11)
+2024.05.06 00:38:24 INFO  [info] loading settings for project scala-build-build from metals.sbt ...
+2024.05.06 00:38:26 INFO  [info] loading project definition from C:\Users\swaro\OneDrive\Documents\GitHub\Scala\project\project
+2024.05.06 00:38:28 INFO  [info] loading settings for project scala-build from metals.sbt ...
+2024.05.06 00:38:28 INFO  [info] loading project definition from C:\Users\swaro\OneDrive\Documents\GitHub\Scala\project
+2024.05.06 00:38:33 INFO  [success] Generated .bloop\scala-build.json
+2024.05.06 00:38:33 INFO  [success] Total time: 4 s, completed 6 May 2024, 00:38:33
+2024.05.06 00:38:33 INFO  [info] set current project to scala (in build file:/C:/Users/swaro/OneDrive/Documents/GitHub/Scala/)
+2024.05.06 00:38:34 INFO  [success] Generated .bloop\scala-test.json
+2024.05.06 00:38:34 INFO  [success] Generated .bloop\scala.json
+2024.05.06 00:38:34 INFO  [success] Total time: 0 s, completed 6 May 2024, 00:38:34
+2024.05.06 00:38:34 INFO  time: ran 'sbt bloopInstall' in 15s
+2024.05.06 00:38:34 INFO  Attempting to connect to the build server...
+2024.05.06 00:38:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.06 00:38:35 INFO  no build target found for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\ageonplanets.scala. Using presentation compiler with project's scala-library version: 3.3.3
+May 06, 2024 12:38:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+2024.05.06 00:38:55 ERROR Timeout waiting for 'build/initialize' response
+2024.05.06 00:38:55 WARN  Retrying connection to the build server Bloop
+2024.05.06 00:38:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.06 00:38:55 INFO  Attempting to connect to the build server...
+2024.05.06 00:38:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\project\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.06 00:39:15 ERROR Timeout waiting for 'build/initialize' response
+2024.05.06 00:39:15 WARN  Retrying connection to the build server Bloop
+2024.05.06 00:39:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\project\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.06 00:39:35 ERROR Timeout waiting for 'build/initialize' response
+2024.05.06 00:39:35 WARN  Retrying connection to the build server Bloop
+2024.05.06 00:39:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\swaro\OneDrive\Documents\GitHub\Scala\project\.metals\bsp.trace.json or C:\Users\swaro\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.06 00:39:35 INFO  time: Connected to build server in 1m
+2024.05.06 00:39:35 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.06 00:39:36 INFO  time: indexed workspace in 1.29s
+2024.05.06 00:39:36 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\ageonplanets.scala
+2024.05.06 00:39:54 INFO  no build target found for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\ageonplanets.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.55s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.77s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.77s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.77s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.77s
+2024.05.06 00:39:55 INFO  time: code lens generation in 9.78s
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 121
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 120
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 117
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 122
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 127
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 123
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 126
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 124
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 131
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 135
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 134
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 137
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 132
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 136
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 146
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 144
+2024.05.06 00:39:55 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\ageonplanets.scala
+May 06, 2024 12:39:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 150
+2024.05.06 00:40:35 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\ageonplanets.scala
+2024.05.06 00:50:41 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/practice2.scala
+2024.05.06 00:51:52 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 00:52:51 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 00:53:01 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 00:54:35 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 00:55:33 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 00:55:36 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 00:56:18 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 00:56:22 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 00:59:46 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:00:02 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:00:48 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:03:11 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:13:42 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:15:12 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:15:27 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:15:46 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:16:20 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:16:23 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:18:08 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:18:48 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:19:20 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:21:02 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:31:43 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 01:32:02 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:14:50 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:16:15 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/practice2.scala
+2024.05.06 02:16:15 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/practice2.scala
+2024.05.06 02:16:16 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/practice2.scala
+2024.05.06 02:16:15 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/practice2.scala
+2024.05.06 02:17:07 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:17:32 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:17:38 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:17:50 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:18:02 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:18:14 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:18:16 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed character literal
+    print(diff(3))''
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.06 02:18:19 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:18:22 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:18:42 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:19:25 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:20:36 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:21:42 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/practice2.scala
+2024.05.06 02:21:43 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/practice2.scala
+2024.05.06 02:21:43 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/practice2.scala
+2024.05.06 02:21:44 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/practice2.scala
+May 06, 2024 2:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2725
+May 06, 2024 2:22:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3039
+2024.05.06 02:22:50 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:23:08 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:23:15 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:23:20 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:24:02 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:24:25 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:33:49 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:34:07 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:34:32 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:35:16 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:35:59 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:36:23 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:36:56 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\practice2.scala
+2024.05.06 02:37:09 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/match.scala
+2024.05.06 02:37:11 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\match.scala
+2024.05.06 02:37:36 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/hof.scala
+2024.05.06 02:37:38 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/hof.scala
+2024.05.06 02:37:38 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/hof.scala
+2024.05.06 02:37:39 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/hof.scala
+2024.05.06 02:38:44 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+May 06, 2024 2:38:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5084
+2024.05.06 02:39:32 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+2024.05.06 02:42:24 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+2024.05.06 02:42:54 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+2024.05.06 02:43:16 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+2024.05.06 02:43:18 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala
+2024.05.06 03:04:00 INFO  Shutting down server
+2024.05.06 03:04:00 INFO  shutting down Metals
+2024.05.06 03:04:00 INFO  Exiting server
+2024.05.06 07:39:21 INFO  Started: Metals version 1.3.0 in folders 'C:\Users\swaro\OneDrive\Documents\GitHub\Scala' for client Visual Studio Code 1.89.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@1f695844]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5675aafb]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1f695844]
+2024.05.06 07:39:21 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.06 07:39:35 INFO  no build target found for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\hof.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.06 07:41:20 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/vowels.scala
+2024.05.06 07:41:26 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/vowels.scala
+2024.05.06 07:41:26 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/vowels.scala
+May 06, 2024 7:51:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 932
+2024.05.06 07:51:39 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+scala.meta.tokenizers.TokenizeException: <input>:3: error: unclosed character literal
+        vowels = Set('')
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.06 07:51:41 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+scala.meta.tokenizers.TokenizeException: <input>:3: error: unclosed character literal
+        vowels = Set('a','')
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+May 06, 2024 7:51:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 977
+2024.05.06 07:51:42 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+scala.meta.tokenizers.TokenizeException: <input>:3: error: unclosed character literal
+        vowels = Set('a','e','')
+                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.06 07:52:11 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:52:28 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:52:40 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:52:54 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:53:01 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:53:13 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:53:25 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:53:53 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:54:30 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:54:50 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:55:06 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:56:13 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed character literal
+    '
+    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+May 06, 2024 7:56:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1721
+2024.05.06 07:56:32 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:56:35 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:56:40 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed character literal
+        case ''
+             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.06 07:56:46 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:57:11 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:58:30 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 07:58:53 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:03:08 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+May 06, 2024 8:04:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\swaro\OneDrive\Documents\GitHub\Scala\.metals\.reports\metals-full\2024-05-06\r_compiler-error_08-04-08-447.md
+2024.05.06 08:05:12 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:08:43 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/Map.scala
+2024.05.06 08:08:45 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/Map.scala
+2024.05.06 08:09:19 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Map.scala
+2024.05.06 08:09:26 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Map.scala
+2024.05.06 08:09:42 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Map.scala
+2024.05.06 08:10:29 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Map.scala
+2024.05.06 08:10:55 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Map.scala
+2024.05.06 08:11:07 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Map.scala
+2024.05.06 08:13:04 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Map.scala
+2024.05.06 08:13:23 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Map.scala
+2024.05.06 08:33:31 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:33:51 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:34:05 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:34:16 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:34:18 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:34:31 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:34:32 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:34:38 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:34:56 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+May 06, 2024 8:35:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3780
+May 06, 2024 8:35:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _ *
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _ *
+
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _ *
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _ *
+
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _ *
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _ *
+
+	at org.scalameta.invariants.InvariantFailedException$.raise(InvariantFailedException.scala:27)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.checkParent$7(Trees.scala:258)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.privateCopy(Trees.scala:259)
+	at scala.meta.Term$Apply$.apply(Trees.scala:148)
+	at scala.meta.Term$Apply$.apply(Trees.scala:148)
+	at scala.meta.Term$Apply$.apply(Trees.scala:148)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.processPatAndNextQual(FlatMapToForComprehensionCodeAction.scala:313)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$extractChainedForYield$1(FlatMapToForComprehensionCodeAction.scala:603)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.extractChainedForYield(FlatMapToForComprehensionCodeAction.scala:601)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$codeActionWithApply$1(FlatMapToForComprehensionCodeAction.scala:187)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.codeActionWithApply(FlatMapToForComprehensionCodeAction.scala:179)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$5(FlatMapToForComprehensionCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.05.06 08:35:16 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:35:28 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:35:36 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:35:44 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:35:52 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:36:17 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:36:36 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:36:44 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:36:48 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:37:23 ERROR Failed to tokenize input for semantic tokens for C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed string interpolation
+        i => print(s"GOMMAALLLLL $")
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.06 08:37:24 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:37:38 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:37:54 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/vowels.scala
+2024.05.06 08:38:01 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/vowels.scala
+2024.05.06 08:38:02 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/vowels.scala
+2024.05.06 08:38:02 WARN  Could not find semantic tokens for: file:///C:/Users/swaro/OneDrive/Documents/GitHub/Scala/hello-world/src/main/scala/vowels.scala
+2024.05.06 08:38:11 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.06 08:38:33 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\Map.scala
+2024.05.06 08:51:50 WARN  no build target for: C:\Users\swaro\OneDrive\Documents\GitHub\Scala\hello-world\src\main\scala\vowels.scala
+2024.05.07 11:32:44 INFO  Started: Metals version 1.3.0 in folders 'C:\Users\swaro\OneDrive\Documents\GitHub\Scala' for client Visual Studio Code 1.89.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@edbbd09]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4090e368]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@edbbd09]
+2024.05.07 11:32:48 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.07 11:32:49 INFO  Shutting down server
+2024.05.07 11:32:49 INFO  shutting down Metals
+2024.05.07 11:32:49 INFO  Exiting server
